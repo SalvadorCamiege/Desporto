@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+    text-align: center;
+  }
+  
+ .container{
+    background-color: coral;
+    margin: 250px;
+ }
+  
+  h1 {
+      font-size: 36px;
+      color: black; 
+     
+    }
+  
+  .sc {
+       text-align: center;
+       margin: 20px auto;
+       width: 40px; /* Ajuste a largura conforme necessário */
+  }
+  
+  .sc input {
+      padding: 10px;
+      width: 50%;
+      margin: auto;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      
+  }
+  
+  button {
+    background-color: black;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover{
+      color: coral;
+      transition: 2s;
+  }
+  .resultado-pesquisa{
+      height: 46vh; /* Altura máxima da caixa de resultados */
+      overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+      margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+      padding: 1rem; /* Espaçamento interno */
+      border-radius: 0.6rem; /* Borda arredondada */
+      border-radius: 0.6rem;
+}
+
+.item-pesquisa {
+  background: #FFFFFF; /* Cor de fundo dos itens */
+  border-radius: 0.6rem; /* Borda arredondada */
+  padding: 1rem; /* Espaçamento interno */
+  margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza cada item de resultado */
+.item-pesquisa {
+  background: #FFFFFF; /* Cor de fundo dos itens */
+  border-radius: 0.6rem; /* Borda arredondada */
+  padding: 1rem; /* Espaçamento interno */
+  margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-pesquisa h2 {
+  font-size: 1.5rem; /* Tamanho da fonte */
+  color: #222831; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-pesquisa a {
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  color: #30475E; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-pesquisa a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+  color: #45474B; /* Cor do texto */
+  margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+
+  
+  footer {
+     background-color: white;
+     padding: 10px;
+}
